@@ -1,13 +1,25 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/pwc.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
+    <title>Password Creator</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="heading">
+            <h1>Create a</h1>
+            <h1 class="what">random password</h1>
+            <p>Never use a insecure password again.</p>
+        </div>
+        <button id="generate-btn">Generate Passwords</button>
+        <hr>
+        <div id="passwords-div" class="box"></div>
+    </div>
     <script type="module" src="/src/main.js"></script>
-  </body>
+</body>
+
 </html>
