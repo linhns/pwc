@@ -105,7 +105,7 @@ body {
     margin: 0
 }
 
-p {
+.desc {
     color: #d5d4d8;
 }
 
@@ -124,6 +124,16 @@ button:hover {
     border-color: white;
 }
 
+input {
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+input:hover {
+    border-color: #10b981;
+}
+
 #container {
     width: 80%;
     margin: 0 auto;
@@ -138,6 +148,7 @@ button:hover {
 
 .heading {
     line-height: 0.5;
+    margin-bottom: 30px;
 }
 
 .heading>h1 {
@@ -152,6 +163,19 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 20px;
+}
+
+.customization {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.customization>input {
+    width: 40px;
+    text-align: center;
 }
 
 #passwords-div {
